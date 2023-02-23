@@ -1,0 +1,7 @@
+
+body.theme-light.is-focused .cm-active.cm-line {
+  caret-color: black;
+}
+body.theme-dark.is-focused .cm-active.cm-line {
+  caret-color: white;
+}

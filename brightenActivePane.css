@@ -1,0 +1,6 @@
+.workspace-leaf {
+  opacity: 0.5;
+}
+.workspace-leaf.mod-active {
+  opacity: 1;
+}

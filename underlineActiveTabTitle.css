@@ -1,0 +1,10 @@
+
+.workspace-tab-header .workspace-tab-header-inner-title {
+  opacity: .7;
+}
+
+.workspace-tab-header.is-active.mod-active .workspace-tab-header-inner-title {
+  opacity: 1;
+  /* font-weight: bold; */
+  /* border-bottom: 1px solid white; */
+}

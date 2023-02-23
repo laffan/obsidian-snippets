@@ -1,0 +1,32 @@
+
+/* Change font */
+
+
+html body.theme-light .workspace-leaf-content[data-mode="preview"] .view-content  {
+  background-color: white;
+}
+
+html body .workspace-leaf-content[data-mode="preview"] p {
+  font-family: 'Charter', Times, serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+html body .workspace-leaf-content[data-mode="preview"] h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+html body .workspace-leaf-content[data-mode="preview"] h3 {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+/* Hide sources */
+
+html body .workspace-leaf-content[data-mode="preview"] .cm-formatting-link {
+  opacity: 0.3;
+
+}

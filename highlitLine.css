@@ -1,0 +1,40 @@
+.cm-line{
+  border-left: 1px solid transparent;
+}
+
+.cm-active.cm-line::before {
+  content: "";
+  width: 3px !important;
+  height: 100%;
+  border-radius: 20px;
+  display: block;
+  position: absolute;
+  margin-left: -25px;
+  background: gray;
+  opacity: .2;
+}
+
+.HyperMD-list-line.cm-active.cm-line::before {
+  margin-left: -49px;
+}
+
+.cm-active.cm-line span {
+    border: none !important;
+  }
+
+body.is-focused .cm-active.cm-line::before {
+  opacity: 1;
+}
+
+body.is-focused .cm-active.cm-line::before {
+  background: #ED1561;
+  box-shadow: 0 0 10px #FF2075;
+}
+body.is-focused .cm-active.cm-line::before {
+  opacity: .25;
+}
+
+body.is-focused .cm-focused .cm-active.cm-line::before {
+  opacity: 1;
+}
+
