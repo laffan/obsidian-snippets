@@ -1,0 +1,19 @@
+
+html body.theme-light .workspace-leaf-content[data-type="bookmarks"] {
+  background: white;
+}
+
+html body.theme-dark .workspace-leaf-content[data-type="bookmarks"] {
+  background: #181C22;
+}
+
+.tree-item-self.bookmark.is-active {
+  border-left: 3px solid #FF2075;
+  border-radius: 0;
+}
+
+
+/* .tree-item[data-path="Active"] {
+  background: #FFF7FA;
+
+} */

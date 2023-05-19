@@ -1,0 +1,8 @@
+
+.cm-hmd-barelink {
+  display: none;
+}
+
+.cm-active.cm-line .cm-hmd-barelink {
+  display: inline;
+}
