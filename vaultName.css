@@ -1,0 +1,16 @@
+// To be used with "Vault Name in Status Bar" plugin
+
+.status-bar-vault-name {
+  padding: 1px 10px;
+  border-radius: 5px;
+}
+
+html body.theme-light .status-bar-vault-name {
+  background-color: #00C0E3;
+  color: #FFFFFF;
+}
+
+html body.theme-dark .status-bar-vault-name {
+  background-color: #C5225A;
+  color: #DFDFDF;
+}
