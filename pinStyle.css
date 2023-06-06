@@ -1,0 +1,8 @@
+.workspace-tab-header-status-icon.mod-pinned {
+  background: #02adcc;
+}
+
+.workspace-tab-header-status-icon.mod-pinned svg {
+  filter: hue-rotate(87deg) brightness(209%) contrast(200%);
+  margin: 2px 2px;
+}
