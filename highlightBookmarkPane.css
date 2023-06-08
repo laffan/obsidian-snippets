@@ -12,8 +12,20 @@ html body.theme-dark .workspace-leaf-content[data-type="bookmarks"] {
   border-radius: 0;
 }
 
+/* - OLD MAN MODE -------------- */
 
-/* .tree-item[data-path="Active"] {
-  background: #FFF7FA;
+.bookmark {
+  margin-bottom: 8px;
+  width: 80%;
+  transform: scale(1.25);
+  transform-origin: 0 0;
+  padding: 7px 5px;
+}
 
-} */
+.bookmark .tree-item-icon svg {
+  display: none;
+}
+
+.bookmark .tree-item-icon {
+  display: block;
+}
